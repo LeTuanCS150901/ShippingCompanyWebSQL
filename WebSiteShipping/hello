@@ -1,0 +1,87 @@
+<div class="container">    
+    <div class="row">
+  
+      <div class="col-sm-12">
+        <div class="name-table">DANH SÁCH NHÂN VIÊN</div>
+        <br>
+  
+        <!-- nhap ten nhan vien -->
+        <div class="table-responsive input">
+      <form>
+          <div class="form-group">
+            <label for="inputdefault">MÃ NHÂN VIÊN</label>
+            <input class="form-control" id="inputdefault" type="text">
+          </div>
+          <div class="form-group">
+            <label for="inputlg">HỌ VÀ TÊN</label>
+            <input class="form-control" id="inputlg" type="text">
+          </div>
+          <div class="form-group">
+            <label for="inputsm">ĐỊA CHỈ</label>
+            <input class="form-control" id="inputsm" type="text">
+          </div>
+          <div class="form-group">
+            <label for="sel1">SỐ ĐIỆN THOẠI</label>
+            <select class="form-control" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel2">CHỨC VỤ</label>
+            <select class="form-control" id="sel2">
+              <option>GIÁM ĐỐC</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel3">PHÒNG BAN</label>
+            <select class="form-control" id="sel3">
+              <option>HÀNH CHÍNH NHÂN SỰ</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+  
+        </form>
+  
+        <br>
+        <div class="text-center">
+        <button type="button" class="btn btn-primary btn-lg">LƯU</button>
+        <button type="button" class="btn btn-primary btn-lg">HỦY</button>
+  
+        </div>
+        </div>
+  
+        <div class="table-responsive">          
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Anna</td>
+                <td>Pitt</td>
+                <td>35</td>
+                <td>New York</td>
+                <td>USA</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div><br>
+  
